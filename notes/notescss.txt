@@ -1,0 +1,59 @@
+we can put inline styling with in html we can use the tag name only
+ex:   h1{
+    properties:values
+}
+
+if we want to apply css properties with class name we have to use .class_names
+ex:
+        <html>
+            <head>
+                <style>
+                    .nav h1{
+                        color:black;
+                    }
+                
+                
+                </style>
+            
+            </head>
+
+            <body>
+                <div class="nav">
+                    <h1>hello</h1>
+                    <h1>hjkf</h1>
+                    <p>this is para</p>
+                    <p>this is para1</p>
+
+                </div>
+
+            
+            </body>
+        
+        </html>
+----------------------------------------------------
+types of selectors:
+    there are 5types
+    1.simple selector
+        1.default type(h1,p,button,submit,input,etc.. anything if it a element or tag)
+        2.Id (if we have 100's of p. then if we use defaultthen it applies to all p. for that reason we use id concept)
+        3.class class is a selector. we can use id or class. class is used to apply same rules for set of blocks
+    2.combinator--in combinator we have 4 types
+        1.child
+        2.descendant
+        3.adjacent siblings, 
+        4.general siblings
+    3 type is pseudo-class 
+
+
+    4.pseudo element
+    5.attribute(moslty we can see it in anchor tag target,href etc...,)
+    <!--structure or syntax
+
+id='value' it is unique
+class='value1 value2' we can put as many values we want
+
+to identify we use 2symbols
+# for id's
+. for class 
+
+-->

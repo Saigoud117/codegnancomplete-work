@@ -1,0 +1,170 @@
+NOTES
+intro:intro.html
+<html>
+
+<head></head>-->child or sub (this is child node which is a sub part of html)
+
+<body></body>-->child or sub(it is second part of html. what ever we write everything we can see in browser)
+
+</html>--->parent class
+----------------------
+headings: are used to put the headings
+there are 6font size headings
+starting from <h1>content</h1> to <h6>content</h6>---
+para:p is used for paragraphs
+<p>content</p>
+
+------------------------------
+Marquee----is used for scrolling 
+ marquee is used for scrolling or moving it has up, down, right, default is left>
+<! for speed the marquee we use scrollamount='10' or what ever we want to define slow we can use scrollamount="1"also> 
+<! in para we can see align is seeing in red color because it was removed. thats why it is red. depricate or removed..the removed ones we can access by using css>
+
+
+
+--------------------
+what is tags?types:
+we have a concept of tags. these are two types 
+1 is opening and closing tags those are called as paired tags and 
+another type is self closing tags
+----------------
+
+attributes:attribute.html
+The style attribute is used to add styles to an element, such as color, font, size, and more.
+    HTML attributes are special words used inside the opening tag to control the element's behaviour. 
+    HTML attributes are a modifier of a HTML element type.
+    Attributes are used by including them in an opening HTML tag: >
+   <! tag_name attribute_name="value"><!Content> <!/closing tag>
+   <! if we do styling with in html it is called as inline styling
+   for adjusting we use left, right, center, justify(fit for the screen)>
+   <!every thing has an separate functionality. if we want to make use of beyond the functionality we can 
+   use attribute.the work is completely changes. NOte: we should give at starting tag name. 
+   if we metion at last the functionalitywont work>
+   <!attribute are ex like: src, align, alt....etc....,""'actually align was  removed from html standard 5 version""".>
+
+
+
+
+-----------
+anchor and target and href :: links.html & linksconnectionof1website to another webpage
+<a href=" ">content</a> it is a paired tag. a is nothing but anchor and href means hypertext reference. by providing href only we can create link. anchor tag creates the feasibility to create tags. the content it nothing but it appears on the website by clicking that we can redirect onto that page
+<!internal and external linking>
+<! to connect 1page to other page
+we can use "anchor tag"------:"a" a simple a is anchor tag
+a content it is a paired tag so closing tag will be there>
+<!href is nothing but hypertext reference it is used for refering the webpages 
+the files are stored internally so we simply given a file name>
+<!we have a main thing when we click a linkables. we have internal and external for external we 
+have to use 'target' keyword and value for that is  'blank' keyword is used to open the webpage of provided link on separately >
+
+
+
+-----------------
+image:
+to work with images we use <img> tag it is a single tag
+syntax:
+    <img src="" alt""/>the backslash is not mandatory
+    ex:<img src="widow.jpg" alt="BLack widow">
+
+
+
+-------
+id---linksconncectedwithin same webpage we can use check
+id is an attribute it is used to know the unique. id is used to find uniquely... to connect  with id we have to # in href that means in anchor tag. # is used in id in html
+syntax and ex:
+    <h1 id="birth-place" >Birth place</h1> it is used to identify uniquely we use id and by clicking link we use anchor tag and in that href we have to mention "#".
+
+
+
+
+---------------
+lists ----ol_ul_lists.html
+in html lists are 3 types but mostly we use 2 only they are
+    1.ordered
+    2.unordered
+    3.descriptive lists
+        unorderd- we use 
+        <ul> to put the items in ul we use li-> li stands for list item.<li>content</li>
+        we can as many we want. we get a circle type symbol that is called as disc(bullet point). if we dont want disc we can change the shape to another
+        for that we use "type"----->....<ul type="square">content</ul>
+        </ul>ex: <ul><li></li></ul>
+       
+        ordered-we use <ol>and same like ul here also to put items in orderwise we use list item<li>
+        ex: <ol><li>content</li></ol> 
+        in order list default numbering is numbers. but we can take the type="A"for capital letters and type="a"for small letters
+        and type="i" for roman numbers and type="I" for capital roman numbers
+        for to start from specific postion we can use <ol type="1" start="6">content</ol>
+        we can start the numbers to give alphabet numbering also
+
+---------------------------------------
+links:
+for links we use anchor tag:
+            <a href="">content</a>  
+this above will be created a clickable link in web page
+when we click it redirects to another page
+to put images we use
+<img src="" alt="its for alternative is images not available"/>
+
+
+
+
+-------------------------------------------
+table concept:
+in table we have rows wise and column wise concept 
+each part is called as cell and that each cell contains data or value
+WE specifY row as tr--->table row. in this column is not considered
+to specify data as td--->table data.
+<table>
+    <tr>
+        <td>content</td>
+                .
+                .
+        <td>content</td>
+    </tr>
+    <tr>....</tr>
+    to put which is heading we use <th>----</th> th stands for table heading..
+</table> without borders..
+to create borders we have to give with css and without css
+without css: we can give border---attribute
+
+---------------------------------------------------
+we can put video also from utube any where for that iframe is used for example if we want to use the youtunbe 
+go to utube->chose video->right click and then click code embedded 
+ex:<iframe width="549" height="160" src="https://www.youtube.com/embed/8XbTb9yt0Ls" title="Tom and Jerry - The invisible mouse" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+------------------------------
+forms forms are used to get the infromation from user
+like a google search. by search option we can give input google search will take the infromation process it and gives o/p
+to create forms
+<input/>-->it provides the way to take the input
+<input placeholder="enter email"/>--> by place holder we can get to know what to enter within provided box wheter it may provide email or password we have to mention a value for placeholder
+
+<input type="password" placeholder="enter password"/>
+the values for type:
+    default is text
+    email, password,number,radio,checkbox,date,button,submit,reset
+
+---in form we have to use form and action-- action is used to give the input to backend like that
+so many are there..when we click submit its directtly submiting without filling anything
+for that we can came a idea to use required
+
+
+
+
+
+
+shortcuts:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    
+</body>
+</html>
+for above code to adapt easily we can use ! and then press enter
+alt z for to adjust the lines of code is nott in limit to adjust we use alt z

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="tables.html">
+        <p><input type="text" placeholder="Enter Name" required/></p>
+        <p><input type="email" placeholder="Enter Email ID" required></p>
+        <p><input type="password" placeholder="Enter Password"required /></p>
+        <p><input type="date" /></p>
+        <p><input type="number" placeholder="enter mobile number"></p>
+        <p>Gender :
+            <input value="Male" type="radio" name="gender">Male
+            <input value="Female" type="radio" name="gender">Female
+            <input value="Transgender" type="radio" name="gender">Transgender
+        </p>
+        <p>Education Qualification:
+            <input value="10th" type="checkbox" name="no education">10th
+            <input value="intermediate" type="checkbox" name="no education">intermediate
+            <input value="graduation" type="checkbox" name="no education">graduation
+        </p>
+        <p>
+            <select>
+                <option value="select a car">Select a car</option>
+                <option value="audi">audi</option>
+                <option value="benz">benz</option>
+                <option value="lamborghini">lamborghini</option>
+                <option value="Ferrari">Ferrari</option>
+            </select>
+        </p>
+
+        <p><textarea rows="7" cols="50" placeholder="Enter Address"></textarea></p>
+        <p><input type="file" /></p>
+        <input type="submit">
+        <input type="reset">
+        <input type="button" value="click"><!--we wont use this type of button because while using js we get error type button wont work-->
+        <button>workbutton</button>
+
+    </form>
+</body>
+
+</html>
+
+<!--
+<input/>it provides the way to take the input
+<input placeholder="enter email"/>----by place holder we can get to know what to enter within provided box wheter it may provide email or password we have to mention a value for placeholder
+
+<input type="password" placeholder="enter password"/>
+the values for type:
+    default is text
+    email, password,number,radio,checkbox,date,button,submit,reset-->
